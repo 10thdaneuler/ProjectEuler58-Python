@@ -5,7 +5,7 @@ import math
 # 1: 2
 # 2: 4
 # 3: 6
-# generalized: (2n) for n > 1, where n is coil number
+# generalized: (2n) for n >= 1, where n is coil number
 # corners can be found on: s + l, s + 2l, s + 3l and s + 4l
 # where s is position in coil so far, and l is side length.
 # ex:
@@ -29,7 +29,7 @@ import math
 # 3 : 25
 # 4 : 49
 # these are the squares of odd numbers
-# generalized: (2n - 1)^2 for n > 1, where n is coil number
+# generalized: (2n - 1)^2 for n >= 1, where n is coil number
 
 
 def find_s(n):
